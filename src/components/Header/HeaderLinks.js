@@ -33,7 +33,7 @@ export default function HeaderLinks(props) {
   
       <ListItem className={classes.listItem}>
         <Button
-          href="http://localhost:3000/#Experience"
+          href="https://manchukonda9.github.io/myportfolio/#Experience"
           color="transparent"
           
           className={classes.navLink}
@@ -43,7 +43,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="http://localhost:3000/#Projects"
+          href="https://manchukonda9.github.io/myportfolio/#Projects"
           color="transparent"
           target=""
           className={classes.navLink}
@@ -54,7 +54,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
    
         <Button
-          href="http://localhost:3000/#Skills"
+          href="https://manchukonda9.github.io/myportfolio/#Skills"
           color="transparent"
         
           className={classes.navLink}
@@ -66,7 +66,7 @@ export default function HeaderLinks(props) {
    
       <ListItem className={classes.listItem}>
         <Button
-         href="http://localhost:3000/#Contact"
+         href="https://manchukonda9.github.io/myportfolio/#Contact"
           color="transparent"
           
           className={classes.navLink}
