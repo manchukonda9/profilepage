@@ -78,7 +78,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
      
         <Button
-          href="http://localhost:3000/profile-page"
+          href="https://manchukonda9.github.io/profilepage/"
           color="transparent"
           target=""
           className={classes.navLink}
