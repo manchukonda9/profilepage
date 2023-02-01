@@ -1,0 +1,22 @@
+name: Gopi Hello World
+
+
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        type: string
+        description:  random id
+        required: true
+
+jobs:
+  # This workflow contains a single job called "greet"
+  greet:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Runs a single command using the runners shell
+      - name: Send greeting
+        run: echo "Hello with id ${{ github.event.inputs.envType }}" 
